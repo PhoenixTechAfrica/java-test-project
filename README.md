@@ -50,7 +50,7 @@ While implementing your solution **please take care of the following requirement
 #### Functional requirements
 
 - There is no need for UI;
-- Prevent the drone from being loaded with more weight that it can carry;
+- Prevent the drone from being loaded with more weight than it can carry;
 - Prevent the drone from being in LOADING state if the battery level is **below 25%**;
 - Introduce a periodic task to check drones battery levels and create history/audit event log for this.
 
